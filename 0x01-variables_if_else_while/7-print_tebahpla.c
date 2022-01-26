@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - printing lowercase letters
+ * main - printing alphabet backwords
  *
  * Return: return to 0
  */
 int main(void)
 {
 	char x;
-for (x = 'a'; x <= 'z'; --x)
+for (x = 'z'; x >= 'a'; --x)
 putchar(x);
 putchar('\n');
 return (0);
