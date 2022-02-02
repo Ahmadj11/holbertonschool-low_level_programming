@@ -3,15 +3,19 @@
 
 /**
  * _isupper - checks for upper or lowercase letter s 
- *
- * Return: 1 if uppercase 0 if lowercase 
+ * @c: C is uppercase 
+ * Return: 0
  */
-int _isupper(int c);
+
+int _isupper(int c)
 {
-	char c;
-	if (c = 'A')
+	if (c >= 'A' && c <= 'z')
 {
-	printf("%c: %d\n", c, _isupper(c));
+return (1);
 }
-return (0)
+else
+{
+	return (0);
 }
+}
+
