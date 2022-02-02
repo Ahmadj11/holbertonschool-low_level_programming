@@ -7,7 +7,7 @@
  */
 void print_most_numbers(void)
 {
-	int count:
+	int count;
 		for (count = '0'; count <= '9'; count++)
 		{
 			if (count != '4' && count != '2')
