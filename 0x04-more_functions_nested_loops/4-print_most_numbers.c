@@ -1,5 +1,4 @@
 #include"main.c"
-#include <stdio.h>
 /**
  * print_most_numbers - prints 0-9
  *
@@ -12,8 +11,8 @@ void print_most_numbers(void)
 		{
 			if (count != '4' && count != '2')
 			{
-				_putchar(count);
+_putchar(count);
 			}
 		}
-	_putchar('\n');
+_putchar('\n');
 }
