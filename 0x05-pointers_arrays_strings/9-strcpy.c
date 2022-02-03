@@ -3,16 +3,17 @@
  * _strcpy - copy the string
  * @dest: where the string sends up
  * @src: the string that was copied
- * Return: dest
+ * Return: ptr to dest
  */
 char *_strcpy(char *dest, char *src)
 {
-	char *a = dest;
-	char *s = src;
+	int i;
 
-	for (; *s != '\0'; a++, s++)
+	for (i = 0; src[i] != '\0'; i++)
 	{
-		*a = *s;
+		dest[i] = src[i];
 	}
+	dest [i] = '\0';
+
 	return (dest);
 }
