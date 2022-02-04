@@ -1,20 +1,22 @@
 #include "main.h"
 /**
- * print_array - print the array 
- * @a: var one 
- * @n: var two 
+ * print_array - print the array
+ * @a: var one
+ * @n: var two
  * Return: 0
  */
 void print_array(int *a, int n)
 {
-	int x;	
-	for(x = 0; x < n; x++)
+	int x;
+
+
+	for (x = 0; x < n; x++)
 	{
 		printf("%d", a[x]);
-		if (x != x - 1)
+		if (x < n - 1)
 		{
 			printf(", ");
 		}
 	}
-	printf("\n")
+	printf("\n");
 }
