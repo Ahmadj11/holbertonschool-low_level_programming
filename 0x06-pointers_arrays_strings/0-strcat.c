@@ -1,10 +1,22 @@
-#include "main.h"
+#include "holberton.h"
 /*
- *_strcat - string function
- *@dest: destination
- *@src: source 
- *Return: 0
+ * _strcat - main function
+ * @dest: destination
+ * @src: source
+ * Return: det
  */
 char *_strcat(char *dest, char *src)
 {
-	
+	int x;
+	int length;
+
+for (length = 0; dest[length] != '\0'; length++)
+{}
+
+	for (x = 0; src[x] != '\0'; x++)
+	{
+		dest[length + x] = src[x];
+	}
+	dest[length + x] = '\0';
+	return (dest);
+}
