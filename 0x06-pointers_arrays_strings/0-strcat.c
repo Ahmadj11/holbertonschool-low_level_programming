@@ -1,5 +1,5 @@
 #include "holberton.h"
-/*
+/**
  * _strcat - main function
  * @dest: destination
  * @src: source
