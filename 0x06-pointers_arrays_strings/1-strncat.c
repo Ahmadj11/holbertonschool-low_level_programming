@@ -1,8 +1,9 @@
 #include "holberton.h"
-/*
+/**
  * _strncat - main string fiunction
  * @dest: destination
  * @src: source
+ * @n: var
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
