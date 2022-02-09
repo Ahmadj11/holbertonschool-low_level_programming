@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * _puts_recursion - main function
- * @s: var 1
+ * _puts_recursion - main print function
+ * @s: variable
  * Return: void
  */
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
 	{
-		putchar('\n');
+		_putchar('\n');
 		return;
 	}
-	putchar(*s);
-	_puts_recursion(s++);
+	_putchar(*s);
+	_puts_recursion(++s)
 }
