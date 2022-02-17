@@ -1,4 +1,6 @@
 #include "main.h"
+#include <string.h>
+
 /**
  * str_concat - main function
  * @s1: string 1
@@ -22,7 +24,7 @@ char *str_concat(char *s1, char *s2)
 
 	for (string = 0; s1[string] || s2[string]; string++)
 	{
-	length++;
+		length++;
 	}
 
 	ptr = malloc(sizeof(char) * length);
@@ -32,6 +34,7 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 	while (*s1)
+
 	{
 		ptr[x] = *s1;
 		x++;
@@ -45,4 +48,3 @@ char *str_concat(char *s1, char *s2)
 	}
 	return (ptr);
 }
-
