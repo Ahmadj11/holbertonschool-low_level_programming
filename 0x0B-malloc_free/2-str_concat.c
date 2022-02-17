@@ -9,9 +9,10 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *ptr;
-	unsigned int x = 0;
-	int string, length;
+	char *array;
+	int string;
+	int length = 0;
+	int concat_string = 0;
 
 	if (s1 == NULL)
 	{
@@ -21,30 +22,22 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-
 	for (string = 0; s1[string] || s2[string]; string++)
 	{
 		length++;
 	}
-
-	ptr = malloc(sizeof(char) * length);
-
-	if (ptr == NULL)
+	array = malloc(sizeof(char) * length);
+	if (array == NULL)
 	{
 		return (NULL);
 	}
-	while (*s1)
-
+	for (string = 0; s1[string]; string++)
 	{
-		ptr[x] = *s1;
-		x++;
-		s1++;
+		array[concat_string++] = s1[string];
 	}
-	while (*s2)
+	for (string = 0; s2[string]; string++)
 	{
-		ptr[x] = *s2;
-		x++;
-		s2++;
+		array[concat_string++] = s2[string];
 	}
-	return (ptr);
+	return (array);
 }
