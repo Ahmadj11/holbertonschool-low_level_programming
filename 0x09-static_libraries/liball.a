@@ -1,0 +1,167 @@
+!<arch>
+0-isupper.o/    0           0     0     644     90        `
+#include "main.h"
+/**
+* _isupper - tells if file is uppercase
+*/
+
+int _isupper(int c)
+{
+}
+0-memset.o/     0           0     0     644     106       `
+#include "main.h"
+/**
+ * _memset - primary function
+*/
+char *_memset(char *s, char b, unsigned int n)
+{
+}
+0-strcat.o/     0           0     0     644     93        `
+#include "main.h"
+/**
+* *_strcat - main function
+*/
+char *_strcat(char *dest, char *src)
+{
+}
+
+1-isdigit.o/    0           0     0     644     93        `
+#include "main.h"
+/**
+* _isdigit - checks to see if file is digit
+*/
+int _isdigit(int c)
+{
+}
+
+1-memcpy.o/     0           0     0     644     108       `
+#include "main.h"
+/**
+* _memcpy - main function
+*/
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+}
+1-strncat.o/    0           0     0     644     102       `
+#include "main.h"
+/**
+* *_strncat - main function
+*/
+char *_strncat(char *dest, char *src, int n)
+{
+}
+100-atoi.o/     0           0     0     644     67        `
+#include "main.h"
+/**
+prototype function
+*/
+int _atoi(char *s)
+{
+}
+
+2-strchr.o/     0           0     0     644     87        `
+#include "main.h"
+/**
+ * _strchr - main function
+*/
+char *_strchr(char *s, char c)
+{
+}
+
+2-strlen.o/     0           0     0     644     0         `
+2-strncpy.o/    0           0     0     644     104       `
+#include "main.h"
+
+/**
+ * *_strncpy - main function
+*/
+char *_strncpy(char *dest, char *src, int n)
+{
+}
+3-islower.o/    0           0     0     644     94        `
+#include "main.h"
+/**
+ * _islower - checks for lowercase character
+*/
+int _islower(int c)
+{
+}
+3-puts.o/       0           0     0     644     77        `
+#include "main.h"
+/**
+ *  _puts - main function
+*/
+void _puts(char *str)
+{
+)
+
+3-strcmp.o/     0           0     0     644     87        `
+include "main.h"
+/**
+ * _strcmp - main function
+*/
+int _strcmp(char *s1, char *s2)
+{
+}
+
+3-strspn.o/     0           0     0     644     100       `
+#include "main.h"
+/**
+ * _strspn - main function
+*/
+unsigned int _strspn(char *s, char *accept)
+{
+}
+4-isalpha.o/    0           0     0     644     101       `
+#include "main.h"
+/**
+ * _isalpha - searches if character is alphanumeric
+*/
+int _isalpha(int c)
+{
+}
+
+4-strpbrk.o/    0           0     0     644     94        `
+#include "main.h"
+/**
+* _strpbrk - main function
+*/
+char *_strpbrk(char *s, char *accept)
+{
+}
+5-strstr.o/     0           0     0     644     101       `
+#include "main.h"
+/**
+ *  _strstr - main function
+*/
+char *_strstr(char *haystack, char *needle)
+{
+}
+
+6-abs.o/        0           0     0     644     69        `
+#include "main.h"
+/**
+ * _abs - main function
+*/
+int _abs(int i)
+{
+}
+
+9-strcpy.o/     0           0     0     644     92        `
+#include "main.h"
+/**
+* _strcpy - main function
+*/
+char *_strcpy(char *dest, char *src)
+{
+}
+_putchar.o/     0           0     0     644     99        `
+include <unistd.h>
+
+/**
+ * _putchar - writes the character c to stdout
+*/
+int _putchar(char c)
+{
+}
+
