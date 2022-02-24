@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
- * pritn_name - main function
+ * print_name - main function
  * @name: name
  * @f: pointer
  * Return: void
