@@ -2,7 +2,7 @@
 #include "_pow_recursion.c"
 
 /**
- * binary_to_unit - converts binary
+ * binary_to_uint - converts binary
  * @b: binary number
  * Return: the converted number
  */
