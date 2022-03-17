@@ -1,45 +1,46 @@
 #include "main.h"
 
 /**
- * closer - closes the file
- * @fd: file being closed
- * Return: void
- */
+* closer - closes file
+* @fd: file closed
+* Return: void
+*/
 
 void closer(int fd)
 {
-	int v;
+	int a;
 
-	v = close(fd);
+	a = close(fd);
 
-	if (v == -1)
+	if (a == -1)
 	{
-	dprintf(STDERR_FILENO, "Error: Cant't close fd %d\n", fd);
+	dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 	exit(100);
 	}
 }
 
 /**
- * argccheck - argc
- * @argc: argument
- * Return: void
- */
+* argccheck - argc = 3
+* @argc: arguments
+* Return: void
+*/
 
 void argccheck(int argc)
 {
 	if (argc != 3)
 	{
-		dprintf(STDERR_FILENO, "usage: cp file_from file_to\n");
-		exit(97);
+	dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
+	exit(97);
 	}
 }
 
 /**
- * main - copies files
- * @argc: argument
- * @argv: command line argument
- * Return: 1
- */
+* main - copies files
+* @argc: arguments
+* @argv: command line arguments
+* Return: 1
+*/
+
 
 int main(int argc, char *argv[])
 {
