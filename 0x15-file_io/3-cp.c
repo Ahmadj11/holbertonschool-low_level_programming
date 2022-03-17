@@ -3,16 +3,16 @@
 /**
  * closer - closes the file
  * @fd: file being closed
- * Return: 0
+ * Return: void
  */
 
 void closer(int fd)
 {
-	int a;
+	int v;
 
-	a = close(fd);
+	v = close(fd);
 
-	if (a == -1)
+	if (v == -1)
 	{
 	dprintf(STDERR_FILENO, "Error: Cant't close fd %d\n", fd);
 	exit(100);
